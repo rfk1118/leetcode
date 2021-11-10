@@ -1,6 +1,8 @@
-# leetcode
+# [leetcode](https://leetcode-cn.com)
 
-## binary-tree
+## [binary-tree](https://leetcode-cn.com/tag/binary-tree/problemset/)
+
+### easy
 
 * [94.二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
     * [inorderTraversal](binary_tree/inorderTraversal.go)
@@ -8,3 +10,29 @@
     * [validate-binary-search-tree](binary_tree/isValidBST.go)
 * [100. 相同的树](https://leetcode-cn.com/problems/same-tree/)
     * [same-tree](binary_tree/isSameTree.go)
+* [101. 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/submissions/)
+    * [isSymmetric](binary_tree/isSymmetric.go)
+* [104. 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+    * [maxDepth](binary_tree/maxDepth.go)
+* [108. 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
+    * [sortedArrayToBST](binary_tree/sortedArrayToBST.go)
+* [110. 平衡二叉树](https://leetcode-cn.com/problems/balanced-binary-tree/)
+    * [isBalanced](binary_tree/isBalanced.go)
+* [111. 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
+    * [minDepth](binary_tree/minDepth.go)
+* [112. 路径总和](https://leetcode-cn.com/problems/path-sum/)
+    * [hasPathSum](binary_tree/hasPathSum.go)
+* [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+    * [preorderTraversal](binary_tree/preorderTraversal.go)
+* [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/)
+    * [postorderTraversal](binary_tree/postorderTraversal.go)
+* [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)
+    * [invertTree](binary_tree/invertTree.go)
+* [230. 二叉搜索树中第K小的元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/)
+    * [kthSmallest](binary_tree/kthSmallest.go)
+* [235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+    * [lowestCommonAncestor](binary_tree/lowestCommonAncestor.go)
+* [257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths/)
+    * [binaryTreePaths](binary_tree/binaryTreePaths.go)
+* [404. 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves/)
+    * [sumOfLeftLeaves](binary_tree/sumOfLeftLeaves.go)
