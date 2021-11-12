@@ -31,13 +31,6 @@ func getMinimumDifference(root *TreeNode) int {
 	return min
 }
 
-func Min(a, b int) int {
-	if a > b {
-		return b
-	}
-	return a
-}
-
 func getMinimumDifference02(root *TreeNode) int {
 	res := math.MaxInt64
 	pre := -1
