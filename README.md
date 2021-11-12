@@ -92,3 +92,13 @@
     * [kthLargest](binary_tree/kthLargest.go)
 44. [剑指 Offer 55 - II. 平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)
     * [isBalanced](binary_tree/isBalanced.go)
+45. [剑指 Offer 68 - I. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/)
+    * [lowestCommonAncestor](binary_tree/lowestCommonAncestor.go)
+46. [剑指 Offer 68 - II. 二叉树的最近公共祖先]()
+    * [lowestCommonAncestor236](binary_tree/lowestCommonAncestor236.go)
+47. [剑指 Offer II 052. 展平二叉搜索树](https://leetcode-cn.com/problems/NYBBNL/)
+    * [increasingBST](binary_tree/increasingBST.go)
+48. [剑指 Offer II 056. 二叉搜索树中两个节点之和](https://leetcode-cn.com/problems/opLdQZ/)
+    * [findTarget](binary_tree/findTarget.go)
+49. [剑指 Offer II 059. 数据流的第 K 大数值](https://leetcode-cn.com/problems/jBjn9C/)
+    * findTarget 没读明白题意
