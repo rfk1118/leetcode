@@ -28,7 +28,7 @@ func isCousins(root *TreeNode, x int, y int) bool {
 	}
 
 	q := []*Pair{{node: root, depth: 1}}
-	for len(q) > 0 {
+	for len(q) > 0 && !(xFound && yFound) {
 		node := q[0]
 		treeNode := node.node
 		cDepth := node.depth
