@@ -22,8 +22,31 @@ func buildTree(preorder []int, inorder []int) *TreeNode {
 	return root
 }
 
-// loop
-////
-//func buildTreeLoop(preorder []int, inorder []int) *TreeNode {
-//
-//}
+//loop
+// 备注
+func buildTreeLoop(preorder []int, inorder []int) *TreeNode {
+	if nil == preorder {
+		return nil
+	}
+	root := &TreeNode{preorder[0], nil, nil}
+	stack := []*TreeNode{root}
+	var inorderIndex int
+	// 必须剔除
+	for index := 1; index < len(preorder); index++ {
+		value := preorder[index]
+		node := stack[len(stack)-1]
+		if node.Val != inorder[inorderIndex] {
+			node.Left = &TreeNode{value, nil, nil}
+			stack = append(stack, node.Left)
+		} else {
+			for len(stack) != 0 && stack[len(stack)-1].Val == inorder[inorderIndex] {
+				node = stack[len(stack)-1]
+				stack = stack[:len(stack)-1]
+				inorderIndex++
+			}
+			node.Right = &TreeNode{value, nil, nil}
+			stack = append(stack, node.Right)
+		}
+	}
+	return root
+}

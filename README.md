@@ -117,3 +117,14 @@
     2. 层级求平均值的变种
 5. [103. 二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/)
     1. [zigzagLevelOrder](binary_tree/zigzagLevelOrder.go)
+6. [105. 从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
+    1. 递归的还行
+    2. while循环有点难
+7. [106. 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+    1. 等待处理
+    2. // todo
+8. [109. 有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)
+    1. a
+9. [113. 路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)
+    1. 注意可能会出现负数，对于`currentVal > targetSum`应该被移除
+    2. `res = append(res, append([]int(nil), insert...))`数组指针问题，坑死我了
