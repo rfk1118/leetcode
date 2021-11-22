@@ -17,3 +17,5 @@
     1. [removeElements](../linked_list/removeElements.go)
 6. [206. 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
     1. [reverseList](../linked_list/reverseList.go)
+7. [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
+    1. [isPalindrome](../linked_list/isPalindrome.go)
