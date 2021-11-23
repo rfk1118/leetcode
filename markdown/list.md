@@ -19,3 +19,7 @@
     1. [reverseList](../linked_list/reverseList.go)
 7. [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/)
     1. [isPalindrome](../linked_list/isPalindrome.go)
+8. [237. 删除链表中的节点](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/)
+    1. [deleteNode](../linked_list/deleteNode.go)
+9. [705. 设计哈希集合](https://leetcode-cn.com/problems/design-hashset/)
+    1. [MyHashSet](../linked_list/MyHashSet.go)
