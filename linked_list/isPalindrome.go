@@ -5,6 +5,10 @@ package linked_list
 // 变数组？
 // 我第一反应是产生一个新的反转的链表
 func isPalindrome(head *ListNode) bool {
+	// [] 数组案例
+	if nil == head {
+		return true
+	}
 	var temp []*ListNode
 	for head != nil {
 		temp = append(temp, head)
