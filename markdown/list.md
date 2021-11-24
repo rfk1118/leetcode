@@ -29,3 +29,5 @@
     1. [middleNode](../linked_list/middleNode.go)
 12. [1290. 二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer/)
     1. [getDecimalValue](../linked_list/getDecimalValue.go)
+13. [面试题 02.01. 移除重复节点](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/)
+    1. [removeDuplicateNodes](../linked_list/removeDuplicateNodes.go)
