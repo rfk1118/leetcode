@@ -130,8 +130,8 @@
     1. 如果是数组好做，主要是这里是链表，所以只能使用快慢步
     2. [sortedListToBST](../binary_tree/sortedListToBST.go)
 9. [113. 路径总和 II](https://leetcode-cn.com/problems/path-sum-ii/)
-   1. 注意可能会出现负数，对于`currentVal > targetSum`应该被移除
-   2. `res = append(res, append([]int(nil), insert...))`数组指针问题，坑死我了
-   3. [pathSum](../binary_tree/pathSum.go)
+    1. 注意可能会出现负数，对于`currentVal > targetSum`应该被移除
+    2. `res = append(res, append([]int(nil), insert...))`数组指针问题，坑死我了
+    3. [pathSum](../binary_tree/pathSum.go)
 10. [114. 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
     1. [flatten](../binary_tree/flatten.go)

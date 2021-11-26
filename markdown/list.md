@@ -71,3 +71,25 @@
     1. [addTwoNumbers](../linked_list/addTwoNumbers.go)
 2. [19. 删除链表的倒数第 N 个结点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/)
     1. [removeNthFromEnd](../linked_list/removeNthFromEnd.go)
+3. [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)
+    1. [swapPairs](../linked_list/swapPairs.go)
+    2. 第一反应是按2个为1组进行反转，然后就悲剧了，其实按照组反转，其实要处理的就是找到区间，然后反转区间[a,b）,相当于反转全部的升级
+    3. 使用递归反转，每次拿两个节点
+    4. 使用loop，需要一个辅助变量存储第一个节点的前驱
+4. [61. 旋转链表](https://leetcode-cn.com/problems/rotate-list/)
+    1. [rotateRight](../linked_list/rotateRight.go)
+    2. 本地能过，leetcode不过，[Test_rotateRight](../linked_list/rotateRight_test.go)
+5. [82. 删除排序链表中的重复元素 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/)
+    1. [deleteDuplicates](../linked_list/deleteDuplicatesII.go)
+6. [86. 分隔链表](https://leetcode-cn.com/problems/partition-list/)
+    1. [partition](../linked_list/partition.go)
+    2. 如果使用数组双指针，保证有序性会成为问题，你应当保留两个分区中每个节点的初始相对位置。
+7. [92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
+    1. [reverseBetween](../linked_list/reverseBetween.go)
+
+### hard
+
+1. [23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
+    1. [mergeKLists](../linked_list/mergeKLists.go)
+2. [25. K 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/)
+    1. [reverseKGroup](../linked_list/reverseKGroup.go)
