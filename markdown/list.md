@@ -86,7 +86,11 @@
     2. 如果使用数组双指针，保证有序性会成为问题，你应当保留两个分区中每个节点的初始相对位置。
 7. [92. 反转链表 II](https://leetcode-cn.com/problems/reverse-linked-list-ii/)
     1. [reverseBetween](../linked_list/reverseBetween.go)
-
+8. [109. 有序链表转换二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-list-to-binary-search-tree/)
+    1. [sortedListToBST](../binary_tree/sortedListToBST.go)
+9. [114. 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
+    1. 前序转数组，在连接，太暴力性能不好
+    
 ### hard
 
 1. [23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
