@@ -1,4 +1,4 @@
-# [leetcode](https://leetcode-cn.com)
+# [0 .leetcode](https://leetcode-cn.com)
 
 ## [linked-list](https://leetcode-cn.com/tag/linked-list/problemset/)
 
@@ -90,7 +90,18 @@
     1. [sortedListToBST](../binary_tree/sortedListToBST.go)
 9. [114. 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/)
     1. 前序转数组，在连接，太暴力性能不好
-    
+10. [138. 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-rblsf/)
+    1. [copyRandomList](../linked_list/copyRandomList.go)
+11. [142. 环形链表 II](https://leetcode-cn.com/problems/linked-list-cycle-ii/)
+    1. [detectCycle](../linked_list/detectCycle.go)
+    2. 使用map最简单
+    3. 使用快慢步的化，就需要在第一次相遇后将快节点放到头重新在跑一边，可以看到推论
+12. [143. 重排链表](https://leetcode-cn.com/problems/reorder-list/)
+    1. [reorderList](../linked_list/reorderList.go)
+    2. 使用数组的方式要注意节点问题，因为最后一个节点还会带着一大串
+    3. 使用快慢指针查找中间值，反转，合并，这个基本用到了所有技巧
+13.
+
 ### hard
 
 1. [23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
