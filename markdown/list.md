@@ -100,7 +100,20 @@
     1. [reorderList](../linked_list/reorderList.go)
     2. 使用数组的方式要注意节点问题，因为最后一个节点还会带着一大串
     3. 使用快慢指针查找中间值，反转，合并，这个基本用到了所有技巧
-13.
+13. [146. LRU 缓存机制](https://leetcode-cn.com/problems/lru-cache/solution/yuan-yu-linkedhashmapyuan-ma-by-jeromememory/)
+    1. [LRUCache](../linked_list/LRUCache.go)
+    2. map+双链表+哨兵机制
+14. [147. 对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list/solution/dui-lian-biao-jin-xing-cha-ru-pai-xu-by-leetcode-s/)
+    1. [insertionSortList](../linked_list/insertionSortList.go)
+    2. 思想简单，主要是指针的转换
+15. [148. 排序链表](https://leetcode-cn.com/submissions/detail/243840779/)
+    1. [sortList](../linked_list/sortList.go)
+16. [328. 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/)
+    1. [oddEvenList](../linked_list/oddEvenList.go)
+    2. 分离链表，这个也很重要
+17. [382. 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/)
+    1. [Solution](../linked_list/Solution.go)
+    2. 我是真的没看明白
 
 ### hard
 
