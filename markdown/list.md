@@ -114,6 +114,17 @@
 17. [382. 链表随机节点](https://leetcode-cn.com/problems/linked-list-random-node/)
     1. [Solution](../linked_list/Solution.go)
     2. 我是真的没看明白
+18. [355. 设计推特](https://leetcode-cn.com/problems/design-twitter/)
+    1. [Twitter](../linked_list/Twitter.go)
+    2. 设计类型的
+19. [445. 两数相加 II](https://leetcode-cn.com/problems/add-two-numbers-ii/)
+    1. [addTwoNumbersv2](../linked_list/addTwoNumbersV2.go)
+    2. 使用satck效果最好
+20. [1721. 交换链表中的节点](https://leetcode-cn.com/problems/swapping-nodes-in-a-linked-list/)
+    1. [swapNodes](../linked_list/swapNodes.go)
+21. [725. 分隔链表](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
+    1. [splitListToParts](../linked_list/splitListToParts.go)
+    2. 挂羊头做分段事情
 
 ### hard
 
