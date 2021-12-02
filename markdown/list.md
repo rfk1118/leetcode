@@ -125,6 +125,10 @@
 21. [725. 分隔链表](https://leetcode-cn.com/problems/split-linked-list-in-parts/)
     1. [splitListToParts](../linked_list/splitListToParts.go)
     2. 挂羊头做分段事情
+22. [430. 扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/)
+    1. [flatten](../linked_list/flatten.go)
+23.[817. 链表组件](https://leetcode-cn.com/problems/linked-list-components/solution/lian-biao-zu-jian-by-leetcode/)
+    1. [numComponents](../linked_list/numComponents.go)
 
 ### hard
 
