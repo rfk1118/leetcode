@@ -127,9 +127,17 @@
     2. 挂羊头做分段事情
 22. [430. 扁平化多级双向链表](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/)
     1. [flatten](../linked_list/flatten.go)
-23.[817. 链表组件](https://leetcode-cn.com/problems/linked-list-components/solution/lian-biao-zu-jian-by-leetcode/)
+23. [817. 链表组件](https://leetcode-cn.com/problems/linked-list-components/solution/lian-biao-zu-jian-by-leetcode/)
     1. [numComponents](../linked_list/numComponents.go)
-
+24. [707. 设计链表](https://leetcode-cn.com/problems/design-linked-list/)
+    1. [MyLinkedList](../linked_list/MyLinkedList.go)
+    2. 请参考《算法导论》，真的经典
+25. [641. 设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)
+    1. [MyCircularDeque](../linked_list/MyCircularDeque.go)
+    2. 这个因为没有index处理，使用Head,Tail处理比较简单
+26. [622. 设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/)
+    1. [MyCircularQueue](../linked_list/MyCircularQueue.go)
+    2. todo使用数组在写一次
 ### hard
 
 1. [23. 合并K个升序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
